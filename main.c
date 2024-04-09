@@ -18,6 +18,7 @@ int monthDays[13] = {
 };
 int main() {
     int year;
+    printf("清输入一个1900年后的年份\n");
     scanf("%d", &year);
     if (year < 1900) {
         printf("时间过于久远，就请遗忘掉吧～\n");
